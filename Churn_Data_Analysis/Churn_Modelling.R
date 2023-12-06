@@ -186,7 +186,7 @@ eva <- perf_eva(
   show_plot = "roc")
 
 
-eva$confusion_matrix$dat
+eva$binomial_metric$dat
 
 # Check overfitting ----
 model %>%
